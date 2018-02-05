@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6476E2F22028917100363012 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6476E2F12028917100363012 /* AppDelegate.m */; };
+		6476E2F52028917100363012 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6476E2F42028917100363012 /* ViewController.m */; };
+		6476E2F82028917100363012 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6476E2F62028917100363012 /* Main.storyboard */; };
+		6476E2FA2028917100363012 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6476E2F92028917100363012 /* Assets.xcassets */; };
+		6476E2FD2028917100363012 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6476E2FB2028917100363012 /* LaunchScreen.storyboard */; };
+		6476E3002028917100363012 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6476E2FF2028917100363012 /* main.m */; };
+		6476E30A2028917100363012 /* SYTouchPainterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6476E3092028917100363012 /* SYTouchPainterTests.m */; };
+		6476E3152028917100363012 /* SYTouchPainterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6476E3142028917100363012 /* SYTouchPainterUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6476E3062028917100363012 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6476E2E52028917000363012 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6476E2EC2028917000363012;
+			remoteInfo = SYTouchPainter;
+		};
+		6476E3112028917100363012 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6476E2E52028917000363012 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6476E2EC2028917000363012;
+			remoteInfo = SYTouchPainter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6476E2ED2028917000363012 /* SYTouchPainter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SYTouchPainter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6476E2F02028917100363012 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6476E2F12028917100363012 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6476E2F32028917100363012 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6476E2F42028917100363012 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6476E2F72028917100363012 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6476E2F92028917100363012 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6476E2FC2028917100363012 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6476E2FE2028917100363012 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6476E2FF2028917100363012 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6476E3052028917100363012 /* SYTouchPainterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SYTouchPainterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6476E3092028917100363012 /* SYTouchPainterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYTouchPainterTests.m; sourceTree = "<group>"; };
+		6476E30B2028917100363012 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6476E3102028917100363012 /* SYTouchPainterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SYTouchPainterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6476E3142028917100363012 /* SYTouchPainterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYTouchPainterUITests.m; sourceTree = "<group>"; };
+		6476E3162028917100363012 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6476E2EA2028917000363012 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6476E3022028917100363012 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6476E30D2028917100363012 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6476E2E42028917000363012 = {
+			isa = PBXGroup;
+			children = (
+				6476E2EF2028917100363012 /* SYTouchPainter */,
+				6476E3082028917100363012 /* SYTouchPainterTests */,
+				6476E3132028917100363012 /* SYTouchPainterUITests */,
+				6476E2EE2028917000363012 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6476E2EE2028917000363012 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6476E2ED2028917000363012 /* SYTouchPainter.app */,
+				6476E3052028917100363012 /* SYTouchPainterTests.xctest */,
+				6476E3102028917100363012 /* SYTouchPainterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6476E2EF2028917100363012 /* SYTouchPainter */ = {
+			isa = PBXGroup;
+			children = (
+				6476E2F02028917100363012 /* AppDelegate.h */,
+				6476E2F12028917100363012 /* AppDelegate.m */,
+				6476E2F32028917100363012 /* ViewController.h */,
+				6476E2F42028917100363012 /* ViewController.m */,
+				6476E2F62028917100363012 /* Main.storyboard */,
+				6476E2F92028917100363012 /* Assets.xcassets */,
+				6476E2FB2028917100363012 /* LaunchScreen.storyboard */,
+				6476E2FE2028917100363012 /* Info.plist */,
+				6476E2FF2028917100363012 /* main.m */,
+			);
+			path = SYTouchPainter;
+			sourceTree = "<group>";
+		};
+		6476E3082028917100363012 /* SYTouchPainterTests */ = {
+			isa = PBXGroup;
+			children = (
+				6476E3092028917100363012 /* SYTouchPainterTests.m */,
+				6476E30B2028917100363012 /* Info.plist */,
+			);
+			path = SYTouchPainterTests;
+			sourceTree = "<group>";
+		};
+		6476E3132028917100363012 /* SYTouchPainterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6476E3142028917100363012 /* SYTouchPainterUITests.m */,
+				6476E3162028917100363012 /* Info.plist */,
+			);
+			path = SYTouchPainterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6476E2EC2028917000363012 /* SYTouchPainter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6476E3192028917100363012 /* Build configuration list for PBXNativeTarget "SYTouchPainter" */;
+			buildPhases = (
+				6476E2E92028917000363012 /* Sources */,
+				6476E2EA2028917000363012 /* Frameworks */,
+				6476E2EB2028917000363012 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SYTouchPainter;
+			productName = SYTouchPainter;
+			productReference = 6476E2ED2028917000363012 /* SYTouchPainter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6476E3042028917100363012 /* SYTouchPainterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6476E31C2028917100363012 /* Build configuration list for PBXNativeTarget "SYTouchPainterTests" */;
+			buildPhases = (
+				6476E3012028917100363012 /* Sources */,
+				6476E3022028917100363012 /* Frameworks */,
+				6476E3032028917100363012 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6476E3072028917100363012 /* PBXTargetDependency */,
+			);
+			name = SYTouchPainterTests;
+			productName = SYTouchPainterTests;
+			productReference = 6476E3052028917100363012 /* SYTouchPainterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6476E30F2028917100363012 /* SYTouchPainterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6476E31F2028917100363012 /* Build configuration list for PBXNativeTarget "SYTouchPainterUITests" */;
+			buildPhases = (
+				6476E30C2028917100363012 /* Sources */,
+				6476E30D2028917100363012 /* Frameworks */,
+				6476E30E2028917100363012 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6476E3122028917100363012 /* PBXTargetDependency */,
+			);
+			name = SYTouchPainterUITests;
+			productName = SYTouchPainterUITests;
+			productReference = 6476E3102028917100363012 /* SYTouchPainterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6476E2E52028917000363012 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "莹  孙";
+				TargetAttributes = {
+					6476E2EC2028917000363012 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					6476E3042028917100363012 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6476E2EC2028917000363012;
+					};
+					6476E30F2028917100363012 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6476E2EC2028917000363012;
+					};
+				};
+			};
+			buildConfigurationList = 6476E2E82028917000363012 /* Build configuration list for PBXProject "SYTouchPainter" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6476E2E42028917000363012;
+			productRefGroup = 6476E2EE2028917000363012 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6476E2EC2028917000363012 /* SYTouchPainter */,
+				6476E3042028917100363012 /* SYTouchPainterTests */,
+				6476E30F2028917100363012 /* SYTouchPainterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6476E2EB2028917000363012 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6476E2FD2028917100363012 /* LaunchScreen.storyboard in Resources */,
+				6476E2FA2028917100363012 /* Assets.xcassets in Resources */,
+				6476E2F82028917100363012 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6476E3032028917100363012 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6476E30E2028917100363012 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6476E2E92028917000363012 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6476E2F52028917100363012 /* ViewController.m in Sources */,
+				6476E3002028917100363012 /* main.m in Sources */,
+				6476E2F22028917100363012 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6476E3012028917100363012 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6476E30A2028917100363012 /* SYTouchPainterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6476E30C2028917100363012 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6476E3152028917100363012 /* SYTouchPainterUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6476E3072028917100363012 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6476E2EC2028917000363012 /* SYTouchPainter */;
+			targetProxy = 6476E3062028917100363012 /* PBXContainerItemProxy */;
+		};
+		6476E3122028917100363012 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6476E2EC2028917000363012 /* SYTouchPainter */;
+			targetProxy = 6476E3112028917100363012 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6476E2F62028917100363012 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6476E2F72028917100363012 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6476E2FB2028917100363012 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6476E2FC2028917100363012 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6476E3172028917100363012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6476E3182028917100363012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6476E31A2028917100363012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SYTouchPainter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sy.SYTouchPainter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6476E31B2028917100363012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SYTouchPainter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sy.SYTouchPainter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6476E31D2028917100363012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SYTouchPainterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sy.SYTouchPainterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SYTouchPainter.app/SYTouchPainter";
+			};
+			name = Debug;
+		};
+		6476E31E2028917100363012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SYTouchPainterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sy.SYTouchPainterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SYTouchPainter.app/SYTouchPainter";
+			};
+			name = Release;
+		};
+		6476E3202028917100363012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SYTouchPainterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sy.SYTouchPainterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SYTouchPainter;
+			};
+			name = Debug;
+		};
+		6476E3212028917100363012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SYTouchPainterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sy.SYTouchPainterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SYTouchPainter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6476E2E82028917000363012 /* Build configuration list for PBXProject "SYTouchPainter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6476E3172028917100363012 /* Debug */,
+				6476E3182028917100363012 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6476E3192028917100363012 /* Build configuration list for PBXNativeTarget "SYTouchPainter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6476E31A2028917100363012 /* Debug */,
+				6476E31B2028917100363012 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6476E31C2028917100363012 /* Build configuration list for PBXNativeTarget "SYTouchPainterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6476E31D2028917100363012 /* Debug */,
+				6476E31E2028917100363012 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6476E31F2028917100363012 /* Build configuration list for PBXNativeTarget "SYTouchPainterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6476E3202028917100363012 /* Debug */,
+				6476E3212028917100363012 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6476E2E52028917000363012 /* Project object */;
+}
